@@ -21,8 +21,8 @@ class Employee:
     def get_salary(self):
         return self.__salary
     
-    def get_salary(self):
-        return self.__salary
+    def get_email_address(self):
+        return self.__email_address
     
 # Creates empty dictionary for storing Employees
 def make_employee_dict(names, ids, salaries, emails):

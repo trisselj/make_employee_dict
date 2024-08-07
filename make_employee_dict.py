@@ -5,11 +5,11 @@
 
 # Initializes data set with employee name, ID, salary, and email
 class Employee:
-    def __init__(self, name, ID_number, salary, email_address): 
-        self.__name = name
-        self.__ID_number = ID_number
-        self.__salary = salary
-        self.__email_address = email_address
+    def __init__(self, _name, _ID_number, _salary, _email_address): 
+        self.__name = _name
+        self.__ID_number = _ID_number
+        self.__salary = _salary
+        self.__email_address = _email_address
 
     # Returns name, ID, salary, and email
     def get_name(self):
